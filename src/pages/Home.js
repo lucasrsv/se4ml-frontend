@@ -14,7 +14,7 @@ const Home = () => {
     setError(null);
 
     try {
-      const response = await axios.post('http://localhost:8000/search', {
+      const response = await axios.post('https://se4ml-backend-raov686vr-lucasrsvs-projects.vercel.app/search', {
         query_text: query,
         num_results_to_print: 20, 
         top_k: 300,
