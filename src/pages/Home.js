@@ -14,7 +14,7 @@ const Home = () => {
     setError(null);
 
     try {
-      const response = await axios.post('https://se4ml-backend-raov686vr-lucasrsvs-projects.vercel.app/search', {
+      const response = await axios.post('https://eco-tape-442803-i5.uc.r.appspot.com/search', {
         query_text: query,
         num_results_to_print: 20, 
         top_k: 300,
