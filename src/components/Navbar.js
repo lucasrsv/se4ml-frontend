@@ -7,7 +7,7 @@ const Navbar = () => {
     <AppBar position="static" style={{ marginBottom: '20px' }}>
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
-          Meu Projeto
+          Computer Science and Society
         </Typography>
         <Button color="inherit" component={Link} to="/">Home</Button>
         <Button color="inherit" component={Link} to="/articles">Explore Articles</Button>
